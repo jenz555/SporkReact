@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="44px" height="29px" viewBox="0 0 44 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>creditCard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Responsive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Checkout-Guest" transform="translate(-136.000000, -626.000000)">
+            <g id="creditCard" transform="translate(136.000000, 626.000000)">
+                <g id="Group-3">
+                    <g id="Group-11">
+                        <g id="Group-9">
+                            <rect id="Rectangle-9" fill="#FFEEDB" x="0" y="0" width="43.5185185" height="28.1904762" rx="4"></rect>
+                            <path d="M19.831299,28.1904762 L39.5218089,28.1904762 C41.7291307,28.1904762 43.5185185,26.4056493 43.5185185,24.1814065 L43.5185185,13.0531866 C39.9458383,19.9321928 31.1594436,25.4958295 19.831299,28.1904762 Z" id="Rectangle-10" fill="#FFA821"></path>
+                            <ellipse id="Oval-6" fill="#FFA821" cx="21.7592593" cy="13.2142857" rx="6.09259259" ry="6.16666667"></ellipse>
+                        </g>
+                        <path d="M25.7419224,8.5474479 C24.673941,7.61291092 23.2818226,7.04761905 21.7592593,7.04761905 C18.3944133,7.04761905 15.6666667,9.80852976 15.6666667,13.2142857 C15.6666667,15.15728 16.5544767,16.8903941 17.9418973,18.0207089 C19.0825255,13.8484754 21.962356,10.4074975 25.7419224,8.5474479 Z" id="Oval-7" fill="#FA9A05"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

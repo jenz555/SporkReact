@@ -1,0 +1,72 @@
+$bluish-grey: #7b8e9b;
+$white: #ffffff;
+$blue-4: #0096d6;
+$blackish-grey: #313131;
+
+
+.homepage__link--rectangle--container {
+  margin-top: -12px;
+  margin-left: 4px;
+}
+
+.homepage__link--rectangle {
+  width: 119px;
+  height: 92px;
+  opacity: 0.7;
+  border-radius: 8px;
+  background-color: $bluish-grey;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  float: left;
+  margin: 2px;
+  font-size: 11px;
+  color: $white;
+}
+
+
+.homepage__icon{
+  width: 100px;
+
+}
+
+.homepage__link--rectangle span {
+  float: left;
+  margin-left: 12px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.homepage__link--card  {
+  height: 80px;
+  width: 100%;
+  display: block;
+}
+
+.homepage__link--card a {
+  height: 100%;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color: $blackish-grey;
+}
+
+.homepage__link--card a:active {
+  background-color: $blue-4;
+  color: $white;
+}
+
+.homepage__link--card--inner {
+}
+
+.homepage__link--card--inner > .icon__container {
+  margin-top: 15px;
+  margin-top: 20px;
+}
+
+
+.background--dusty {
+  background-color: #EBEBEB;
+
+}
+
+

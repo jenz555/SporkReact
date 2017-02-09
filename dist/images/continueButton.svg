@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="345px" height="46px" viewBox="0 0 345 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 46</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family=".AppleSystemUIFont" font-size="16" font-weight="normal" fill="#FFFFFF">
+            <tspan x="139.84375" y="28">Continue</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.631372549   0 0 0 0 0.247058824   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Current-Location" transform="translate(-15.000000, -606.000000)">
+            <g id="Rectangle-46" transform="translate(15.000000, 606.000000)">
+                <rect fill-opacity="0.5" fill="#FF8400" fill-rule="evenodd" x="0" y="0" width="345" height="46" rx="10"></rect>
+                <g id="Continue" opacity="0.5" fill-opacity="1" fill="#FFFFFF">
+                    <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                    <use xlink:href="#text-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

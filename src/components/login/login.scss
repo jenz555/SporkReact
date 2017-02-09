@@ -1,0 +1,85 @@
+$gray-6: #333333;
+$cerulean: #008ecd;
+
+$font-brand: 'Allstate Sans Regular', Arial, Helvectica, sans-serif;
+
+.login__wrapper {
+  padding: 0 1rem;
+
+}
+
+.login__label {
+  font-family: $font-brand;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: left;
+  color: $gray-6;  
+}
+
+.login__label--touch {
+  font-family: SFUIText;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.08;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: $cerulean;
+}
+
+.touchid__modal {
+  width: 270px;
+  height: 134px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.fingerprint {
+  text-align: center;
+}
+
+.touchid__header {
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.58;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #030303;
+}
+
+.touchid__label {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.58;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #030303;
+}
+
+.touchid__button {
+  font-family: SFUIText;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #008ecd;
+  color: $cerulean;
+  margin-top: 2rem;
+}
+
+.narcissus_n3sdvf {
+  display: none !important;
+}
+
+.narcissus_17w311v {
+  left: 34px !important;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>checkMark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Responsive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ok-Got-It-Guest" transform="translate(-33.000000, -336.000000)">
+            <g id="Group-5" transform="translate(33.000000, 330.000000)">
+                <g id="Group" transform="translate(0.000000, 6.000000)">
+                    <g id="checkMark">
+                        <circle id="Oval" fill="#7B8E9B" fill-rule="evenodd" cx="7" cy="7" r="7"></circle>
+                        <polyline id="Rectangle-96-Copy-6" stroke="#FFFFFF" stroke-width="1.8" transform="translate(6.922030, 7.160925) scale(1, -1) rotate(-180.000000) translate(-6.922030, -7.160925) " points="8.36327067 4.37215125 8.36327067 7.3425135 2.6687749 7.34251341"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

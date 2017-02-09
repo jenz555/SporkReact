@@ -1,0 +1,70 @@
+/*
+Error: Invalid CSS after "  @if ($direction ": expected ")", was "= row){"
+        on line 352 of /Users/jhiar/Documents/Git/spork/dist/styles/spork/theme.scss
+
+347:   display: $type;
+348: }
+349: 
+350: @mixin flex-direction($direction : row){
+351: 
+352:   @if ($direction = row){
+353:     -webkit-box-orient: horizontal;
+354:     -webkit-box-direction: normal;
+355:     -moz-box-orient: horizontal;
+356:     -moz-box-direction: normal;
+357:   }
+
+Backtrace:
+/Users/jhiar/Documents/Git/spork/dist/styles/spork/theme.scss:352
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/lexer.rb:220:in `expected!'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:580:in `assert_tok'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:515:in `paren'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:498:in `special_fun'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:492:in `raw'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:406:in `funcall'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:387:in `ident'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:246:in `unary_not'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:246:in `unary_div'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:246:in `unary_minus'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:246:in `unary_plus'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:227:in `times_div_or_mod'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:227:in `plus_or_minus'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:227:in `relational'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:227:in `eq_or_neq'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:227:in `and_expr'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:227:in `or_expr'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:361:in `space'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:345:in `interpolation'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:293:in `expr'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:571:in `assert_expr'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:62:in `parse'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1027:in `sass_script'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:314:in `if_directive'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:219:in `special_directive'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:194:in `directive'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:650:in `block_contents'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:231:in `mixin_directive'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:219:in `special_directive'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:194:in `directive'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
+/Users/jhiar/Downloads/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"  @if ($direction \": expected \")\", was \"= row){\"\A         on line 352 of /Users/jhiar/Documents/Git/spork/dist/styles/spork/theme.scss\A \A 347:   display: $type;\A 348: }\A 349: \A 350: @mixin flex-direction($direction : row){\A 351: \A 352:   @if ($direction = row){\A 353:     -webkit-box-orient: horizontal;\A 354:     -webkit-box-direction: normal;\A 355:     -moz-box-orient: horizontal;\A 356:     -moz-box-direction: normal;\A 357:   }"; }

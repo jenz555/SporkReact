@@ -1,0 +1,107 @@
+$blue: #0096d6;
+$light-grey: #a0adb7;
+
+.membership__iconslist {
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.3);
+}
+
+.membership__memberlist {
+  width: 332px;
+  margin-bottom: 1rem;
+}
+
+.member__details__container {
+  position: relative;
+  display: block;
+  height: 150px;
+}
+
+.membership__member {
+  font-size: 11px;
+  height: 76px;
+}
+
+.membership__member--selected {
+  border-bottom: 4px solid $blue !important;
+}
+
+.member__details {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.35s linear;
+  position: absolute;
+}
+
+.member--details--hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.35s, opacity 0.35s linear;
+  top: 1;
+ }
+
+.membership__memberlist li {
+  font-size: 12px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.membership__memberlist li:first-child {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.membership__memberlist li:first-child span {
+  font-size: 12px;
+  color: $blue;
+}
+
+
+.membershipSettings__list {
+  width: 332px;
+}
+
+.membershipSettings__list li span, .membershipSettings__list li a {
+  padding-left: 5px;
+}
+
+.membershipSettings__list li a:hover {
+  text-decoration: none;
+}
+
+.membershipSettings__list li {
+  color: $blue;
+  font-family: 'Allstate Sans Regular',Arial,Helvectica,sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  height: 28px;
+  top: 50%;
+}
+
+.membershipSettings__list li a {
+  color: $blue;
+}
+
+.membershipSettings__list li a:visited {
+  color: $blue;
+}
+
+.membershipSettings__list li:after {
+    float: right;
+    border-style: solid;
+    border-width: .2em .2em 0 0;
+    content: '';
+    height: .75em;
+    width: .8em;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.membershipSettings__list--link--add--text {
+  color: $light-grey;
+  font-size: 12px;
+  display: block;
+  margin-top: -2px;
+}

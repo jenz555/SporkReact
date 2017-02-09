@@ -1,0 +1,56 @@
+$blue: #0096d6;
+$light-grey: #a0adb7;
+
+.vehiclehealth__list {
+  width: 372px;
+  padding-left: 20px;
+}
+
+.vehiclehealth__list li span, .vehiclehealth__list li a {
+  padding-left: 5px;
+}
+
+.vehiclehealth__list li a:hover {
+  text-decoration: none;
+}
+
+.vehiclehealth__list li {
+  color: $blue;
+  font-family: 'Allstate Sans Regular',Arial,Helvectica,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  border-bottom: 1px solid rgba(160, 173, 183, 0.3);
+  height: 48px;
+  top: 50%;
+}
+
+.vehiclehealth__list li a {
+  color: $blue;
+}
+
+.vehiclehealth__list li a:visited {
+  color: $blue;
+}
+
+.vehiclehealth__list li:after {
+    float: right;
+    border-style: solid;
+    border-width: .2em .2em 0 0;
+    content: '';
+    height: .75em;
+    width: .8em;
+    position: relative;
+    transform: rotate(45deg);
+    margin-top: -30px;
+}
+
+.vehiclehealth__list--link--add--text {
+  color: $light-grey;
+  font-size: 12px;
+  display: block;
+  margin-top: -2px;
+}
+
